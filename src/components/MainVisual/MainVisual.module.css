@@ -13,7 +13,8 @@
 	display: flex;
 	scroll-snap-align: start;
 	position: relative;
-	font-family: "firstView";
+	font-family: "firstView", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+	font-weight: 100;
 }
 .content {
 	transform: translateY(300px);
