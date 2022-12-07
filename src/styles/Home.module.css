@@ -1,0 +1,33 @@
+@-webkit-keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(5%);
+  }
+  75% {
+    transform: translateY(-5%);
+  }
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(5%);
+  }
+  75% {
+    transform: translateY(-5%);
+  }
+}
+.wrapper {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  opacity: 0;
+  font-family: "main", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  font-weight: 100;
+  transition: .5s;
+}
+.wrapper.loaded {
+  opacity: 1;
+}

@@ -1,0 +1,50 @@
+@-webkit-keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(5%);
+  }
+  75% {
+    transform: translateY(-5%);
+  }
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(5%);
+  }
+  75% {
+    transform: translateY(-5%);
+  }
+}
+.snsLink {
+    display: flex;
+    justify-content: center;
+  }
+  .snsLink a {
+    margin: 0 0.2rem;
+    stroke: black;
+    fill: black;
+    -webkit-animation: float 5s linear infinite;
+    animation: float 5s linear infinite;
+  }
+  .snsLink a:nth-of-type(2n) {
+    animation: float 5s linear infinite reverse;
+  }
+  .snsLink a svg {
+    width: 2rem;
+    height: 2rem;
+    transition: 0.3s;
+  }
+  .snsLink a svg:hover {
+    transform: rotate(-45deg);
+  }
+  @media screen and (min-width: 600px) {
+    .snsLink {
+      margin-left: 3rem;
+    }
+  }
+  
