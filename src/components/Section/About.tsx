@@ -47,7 +47,7 @@ export function About() {
         <div className={styles.footer__use}>
           <p>This site is</p>
           <p>node.js / Next.js / TypeScript / SCSS / FLOCSS / Webpack</p>
-          <p><a href="https://github.com/tzptzptzptzptzp/portfolio-l">GitHub</a></p>
+          <p><a href="https://github.com/tzptzptzptzptzp/portfolio-nextjs">GitHub</a></p>
         </div>
         <small>&copy; 2020 てづっぴ.</small>
       </footer>
